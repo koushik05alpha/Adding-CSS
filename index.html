@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adding CSS</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+
+    body {
+      width: 100%;
+      height: 100vh;
+      background: #333;
+      color: #fff;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      padding: 150px 0;
+    }
+
+    .container {
+      width: 40%;
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+    }
+
+    .btn {
+      width: 120px;
+      padding: 20px 0;
+      border: 1px solid #fff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 50px;
+      transition: 0.5s;
+    }
+
+    .btn:hover {
+      color: #000;
+      background-color: #fff;
+    }
+
+    h1{
+      font-size: 3rem;
+    }
+    h2{
+      font-size: 2.5rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Three Methods of Adding CSS</h1>
+  
+  <!-- Create 3 Links to The 3 Webpages: inline, internal and external -->
+  <div class="container">
+    <a class="btn" href="./inline.html" target="_blank">Inline</a>
+    <a class="btn" href="./internal.html" target="_blank">Internal</a>
+    <a class="btn" href="./external.html" target="_blank">External</a>
+  </div>
+
+  <h2>CSS = Cascading Style Sheet</h2>
+
+</body>
+
+</html>
